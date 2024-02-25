@@ -14,7 +14,7 @@ public class Control {
 		this.tv = tv;
 	}
 	
-	//Método
+	//Methods
 	public void turnOn() {
 		tv.turnOn();
 	}

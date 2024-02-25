@@ -18,8 +18,8 @@ public class TV {
 	}
 	
 	//Getters y setters
-	public void getMarca() {
-		marca.getNombre();
+	public Marca getMarca() {
+		return marca;
 	}
 
 	public void setMarca(String marca) {
@@ -62,7 +62,7 @@ public class TV {
 		this.control = control;
 	}
 	
-	//Métodos
+	//Methods
 	public static void numTV() {
 		numTV++;
 	}

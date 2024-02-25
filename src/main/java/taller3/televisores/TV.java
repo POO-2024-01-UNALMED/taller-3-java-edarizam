@@ -62,13 +62,15 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
-	
+
 	public static int getNumTV() {
 		return numTV;
 	}
 
-	public static void setNumTV() {
-		TV.numTV = 0;
+	public static void setNumTV(int numTV) {
+		if (numTV == 0) {
+			TV.numTV = numTV;
+		}
 	}
 
 	//Methods

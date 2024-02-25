@@ -2,20 +2,20 @@ package taller3.televisores;
 
 public class Marca {
 	//Atributo
-	private String marca;
+	private String nombre;
 	
 	//Constructor
-	public Marca(String marca) {
-		this.marca = marca;
+	public Marca(String nombre) {
+		this.nombre = nombre;
 	}
 	
 	// Getter y setter
-	public String getMarca() {
-		return this.marca;
+	public String getNombre() {
+		return this.nombre;
 	}
 	
-	public void setMarca(String marca) {
-		this.marca = marca;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	
 }

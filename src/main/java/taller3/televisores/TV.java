@@ -67,12 +67,12 @@ public class TV {
 		return numTV;
 	}
 
-	public static void setNumTV(int numTV) {
-		TV.numTV = numTV;
+	public static void setNumTV() {
+		TV.numTV = 0;
 	}
 
 	//Methods
-	public static void numTV() {
+	public static void contadorTv() {
 		numTV++;
 	}
 	
